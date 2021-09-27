@@ -1,7 +1,7 @@
 {
   "ads":"true",
   "update":[{
-    "version":"1.0002",
+    "version":"1.2002",
     "title":"Note",
     "description":"If you have installed any other vpn app kindly uninstall it otherwise you won't be able to connect to our VPN",
     "size":""
@@ -17,6 +17,5 @@
   ],
   "free":[
     {"id":0, "file":0, "city":"United States","country":"United States","image":"unitedstates","ip":"34.69.38.48","active":"true","signal":"a"},
- {"id":1, "file":0, "city":"United States","country":"United States","image":"unitedstates","ip":"34.69.38.48","active":"true","signal":"a"},
-  ]
+ ]
 }
