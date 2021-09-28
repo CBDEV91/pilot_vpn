@@ -17,8 +17,8 @@
   ],
   "free":[
     {"id":0, "file":0, "city":"Eemshaven - Netherlands","country":"Netherlands","image":"netherlands","ip":"35.204.71.46","active":"true","signal":"a"},
-    {"id":1, "file":1, "city":"Ashburn / Virginia,","country":"United States","image":"unitedstates","ip":"34.85.182.8","active":"true","signal":"a"},
+    {"id":1, "file":1, "city":"Ashburn / Virginia -USA","country":"United States","image":"unitedstates","ip":"34.85.182.8","active":"true","signal":"a"},
     {"id":2, "file":0, "city":"Eemshaven - Netherlands","country":"Netherlands","image":"netherlands","ip":"35.204.71.46","active":"true","signal":"a"},
-    {"id":3, "file":1, "city":"Ashburn / Virginia,","country":"United States","image":"unitedstates","ip":"34.85.182.8","active":"true","signal":"a"}
+    {"id":3, "file":1, "city":"Ashburn / Virginia- USA","country":"United States","image":"unitedstates","ip":"34.85.182.8","active":"true","signal":"a"}
        ]
 }
