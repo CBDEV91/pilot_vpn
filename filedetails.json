@@ -125,14 +125,14 @@ d18b85a9c77c000defdeec92a35b0edb
 client
 server-poll-timeout 4
 nobind
-remote 34.85.182.8 1194 udp
-remote 34.85.182.8 1194 udp
-remote 34.85.182.8 443 tcp
-remote 34.85.182.8 1194 udp
-remote 34.85.182.8 1194 udp
-remote 34.85.182.8 1194 udp
-remote 34.85.182.8 1194 udp
-remote 34.85.182.8 1194 udp
+remote 34.145.186.89 1194 udp
+remote 34.145.186.89 1194 udp
+remote 34.145.186.89 443 tcp
+remote 34.145.186.89 1194 udp
+remote 34.145.186.89 1194 udp
+remote 34.145.186.89 1194 udp
+remote 34.145.186.89 1194 udp
+remote 34.145.186.89 1194 udp
 dev tun
 dev-type tun
 ns-cert-type server
@@ -219,6 +219,28 @@ dmgtT0mMjam3f8zdYzab5W03
 </key>
 
 key-direction 1
-<tls-auth>"}  
+<tls-auth>
+#
+# 2048 bit OpenVPN static key (Server Agent)
+#
+-----BEGIN OpenVPN Static key V1-----
+6641201dff294f65412882c105d9d906
+8e449d91567a80acad97f56a719809ff
+30ca739d22f15902d68ef1b54caf2b4b
+16bf2959964975fdd11da270db518ddb
+837541ded93c69b57d71bf88318a817b
+6def91f6814d0333706c43d1930af5f3
+a12e72ed2d39e0dcfd27d6634e369950
+ae34f1edb1ad75434d64dd7c9b105aca
+d4d6ec02952c36da92360a30b3b80b8a
+fe645846ec77cc7cbc2b0ce1bb57f985
+fd3a2cffe0f0762a16db94e14966d2b1
+788dc033cc41bcc21e8c6ec31cc1837c
+2b07ece78a6e01eb7c10d89005a1183a
+c1d4e4b2f6b84b25e8686a24df434e63
+a427a2d510ce418133484f0fe32a74ac
+ba36a164860d88f3729dec59ed241972
+-----END OpenVPN Static key V1-----
+</tls-auth>"}  
     ]
 }
