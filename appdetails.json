@@ -17,6 +17,6 @@
   ],
   "free":[
     {"id":0, "file":0, "city":"Dallas / Taxas - USA","country":"United States","image":"unitedstates","ip":"66.228.48.78","active":"true","signal":"a"},
-    {"id":0, "file":0, "city":"Sydney  - Australia","country":"Australia","image":"australia","ip":"172.105.179.190","active":"true","signal":"a"}
+    {"id":0, "file":1, "city":"Sydney  - Australia","country":"Australia","image":"australia","ip":"172.105.179.190","active":"true","signal":"a"}
     ]
 }
