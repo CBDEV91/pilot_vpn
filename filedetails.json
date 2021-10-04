@@ -1,46 +1,6 @@
 {
   "ovpn_file":[
-  {"id":0,"file":"# Automatically generated OpenVPN client config file
-  # Generated on Mon Oct  4 08:38:06 2021 by li2088-190.members.linode.com
-  # Note: this config file contains inline private keys
-  #       and therefore should be kept confidential!
-  #       Certificate serial: 4, certificate common name: user1_AUTOLOGIN
-  #       Expires 2031-10-02 08:38:06
-  # Note: this configuration is user-locked to the username below
-  # OVPN_ACCESS_SERVER_USERNAME=user1
-  # Define the profile name of this particular configuration file
-  # OVPN_ACCESS_SERVER_PROFILE=user1@172.105.179.190/AUTOLOGIN
-  # OVPN_ACCESS_SERVER_AUTOLOGIN=1
-  
-  # Default Cipher
-  cipher AES-256-CBC
-  # OVPN_ACCESS_SERVER_CLI_PREF_ALLOW_WEB_IMPORT=True
-  # OVPN_ACCESS_SERVER_CLI_PREF_BASIC_CLIENT=False
-  # OVPN_ACCESS_SERVER_CLI_PREF_ENABLE_CONNECT=False
-  # OVPN_ACCESS_SERVER_CLI_PREF_ENABLE_XD_PROXY=True
-  # OVPN_ACCESS_SERVER_WSHOST=172.105.179.190:443
-  # OVPN_ACCESS_SERVER_WEB_CA_BUNDLE_START
-  # -----BEGIN CERTIFICATE-----
-  # MIIDLDCCAhSgAwIBAgIEYVhkJDANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDDDxP
-  # cGVuVlBOIFdlYiBDQSAyMDIxLjEwLjAyIDEzOjUyOjM2IFVUQyBsaTIwODgtMTkw
-  # Lm1lbWJlcnMubGkwHhcNMjExMDAxMTM1MjM2WhcNMzEwOTMwMTM1MjM2WjBHMUUw
-  # QwYDVQQDDDxPcGVuVlBOIFdlYiBDQSAyMDIxLjEwLjAyIDEzOjUyOjM2IFVUQyBs
-  # aTIwODgtMTkwLm1lbWJlcnMubGkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
-  # AoIBAQDUoIyOhsEwFAVLKhXEtt8PvkeIUp0rFFw+Kq7JQxXOlPzvrt1ukth8Fb6c
-  # twUHBIEizA1sz6W3n3ZU009w+bgJr3CtcNrMIzfgbAW/r4z5tYKz94cWk4vrYxr1
-  # IJ09wBlnRlzqPmcFFEf1J5ePFrArCr4ulBaOmSz5v3Bb2v83l21RUBcbH2+KD46A
-  # cLMPkI9UxJYEyLGQZk+idawiw0whjaGe9NpmWr2GhOw/TJL56yxHNaakeLs04R1R
-  # TBiuTulWgmlWNlP7BHv+bWOqZAszfo+qp5QKtSi9TEPWDY39wnV16xkG7MLeK+Mc
-  # VLn719aVWXDxITLl5y7xsUuMylMtAgMBAAGjIDAeMA8GA1UdEwEB/wQFMAMBAf8w
-  # CwYDVR0PBAQDAgEGMA0GCSqGSIb3DQEBCwUAA4IBAQDCEIpzaou5j+eJofGShrUs
-  # uTmSLTTdEClwm6oqO24hj3fWRYq+1fN7vdA9yztqnFUdGVHOwSj1p+rMPUePih8r
-  # FnebjZoB07t8DWZ5v7urGAgNWwaTlk6fy1k2uGxw6+doumZFAxwkLthTYYeKr/Pt
-  # VWhfb3InK8BXNuFsQsIyu5hafB5xU8ECk3mkMsta6lrPCBjKHlBKVsTFhb+IGdEc
-  # LYAQxcBZyE0aAFoRtK4C5emwcOCEvzWXQ7SVqG9kgF5OZWrhOe4wveUSejDvG1Kq
-  # lvoxl1HHu2oj8tSnrkgjYMeVcdo/1CAhD8+AE+XZDfpAD0sZE5wi4F7QBOKHQ4Cv
-  # -----END CERTIFICATE-----
-  # OVPN_ACCESS_SERVER_WEB_CA_BUNDLE_STOP
-  # OVPN_ACCESS_SERVER_IS_OPENVPN_WEB_CA=1
+  {"id":0,"file":"
   client
   server-poll-timeout 4
   nobind
@@ -151,56 +111,7 @@
   7b70a1bcb81c2cc766547e4b5e84c00c
   337b8abb0a06cfb6e26b2ab3eb1ec1b1
   -----END OpenVPN Static key V1-----
-  </tls-crypt>
-  ## -----BEGIN RSA SIGNATURE-----
-  ## DIGEST:sha256
-  ## LZ1Pr9pU5I96sl2sPzvyZcWXoBZPwSwn/iMVt5SlCK9bNxwFRr
-  ## ADvtckeNFnV1E1UFlGmJx00DYefXJ/M1f66G/sIcfuLf2NmZWF
-  ## tz+bONvjqw7cFx9/wAEGi3qhyNaMhopXVqO4yuKfuZwFXVqrXa
-  ## oKrW/o+NjxW4Oz5J36WiTSvWOTFsSIdZa3X8y13ccre11BKIsw
-  ## kZWO6FCE42oa/BawS5O3u6vpB7faObRK47/yER6zCPoQA403a2
-  ## SJ5wuXW6/5LcndSMvYclAe91UHYT+1keacdA3RZ6fOpgioI0bc
-  ## BQQMEKqBjS1xbssi1NfmsS9Ifx5DVJXsxohGvkKRjg==
-  ## -----END RSA SIGNATURE-----
-  ## -----BEGIN CERTIFICATE-----
-  ## MIIDLjCCAhagAwIBAgIFAMK8uDEwDQYJKoZIhvcNAQELBQAwRzFFMEMGA1UEAww8
-  ## T3BlblZQTiBXZWIgQ0EgMjAyMS4xMC4wMiAxMzo1MjozNiBVVEMgbGkyMDg4LTE5
-  ## MC5tZW1iZXJzLmxpMB4XDTIxMTAwMTEzNTI0MloXDTIyMTAwMjEzNTI0MlowGjEY
-  ## MBYGA1UEAwwPMTcyLjEwNS4xNzkuMTkwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
-  ## MIIBCgKCAQEA19JmOxdKyqSWofhtq7nnm0qJzqu4Wii/ooraFAE53envaSsKbi8Y
-  ## XsFHJUcu+DeZHe8l6jnx0UTyiwW5wUaw1uvEb4oN+YmG4f5oRD86pizV4K7CV8PR
-  ## bSUH0fUHpk1lMtGX5UXYT53BjVm6W72GKkjv+PR2jzhlB+jJXqtoH2IzcpEZuQJ3
-  ## Ef1R+KOSJpa1C7wRgck+0SOBWj1vAGTTyl8Bt1eFTk3Ka4fCQQQIlL/+oU/1S/2p
-  ## /SiQUYGWDgd3BLv3OYeIbu3IcoeBjhJothQTT+LmIb8xHeSaSoXfMdEe8jc76F90
-  ## mEqfLVq+3FBldv/zSILGorMzp+o6qywrdQIDAQABo04wTDAMBgNVHRMBAf8EAjAA
-  ## MAsGA1UdDwQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAaBgNVHREEEzARgg8x
-  ## NzIuMTA1LjE3OS4xOTAwDQYJKoZIhvcNAQELBQADggEBAHvnBdJlRl+b8NqW6lCq
-  ## BDLI8faNYb/vRL79gACn1R4BKuOro5RLylU81YHWYGZlS2PJlY8yb9z7CJ0aqTHI
-  ## DP8uOM2JSNIp+z7U3vY5rTez/Mg+4z+pV5x1jMBYl8BkymlZM+F3SPgLYjREXc4f
-  ## mvteFjY7FP249MZPZnaRPThTJ7V+cOkaWkPMf7xnT4RFYBVMC8q65kJij35kYCDd
-  ## meEEAsCuebvxSrLeMMWzsoIoWk58g0zM67+ZjF7HayX21csz7oR7xlVaojCYQ90H
-  ## jShgdQXMaCkZZC5Ew8kG6HuuZjuIiqODs4COfWmQNNuebREovrV31fl2psjSqgHu
-  ## JY4=
-  ## -----END CERTIFICATE-----
-  ## -----BEGIN CERTIFICATE-----
-  ## MIIDLDCCAhSgAwIBAgIEYVhkJDANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDDDxP
-  ## cGVuVlBOIFdlYiBDQSAyMDIxLjEwLjAyIDEzOjUyOjM2IFVUQyBsaTIwODgtMTkw
-  ## Lm1lbWJlcnMubGkwHhcNMjExMDAxMTM1MjM2WhcNMzEwOTMwMTM1MjM2WjBHMUUw
-  ## QwYDVQQDDDxPcGVuVlBOIFdlYiBDQSAyMDIxLjEwLjAyIDEzOjUyOjM2IFVUQyBs
-  ## aTIwODgtMTkwLm1lbWJlcnMubGkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
-  ## AoIBAQDUoIyOhsEwFAVLKhXEtt8PvkeIUp0rFFw+Kq7JQxXOlPzvrt1ukth8Fb6c
-  ## twUHBIEizA1sz6W3n3ZU009w+bgJr3CtcNrMIzfgbAW/r4z5tYKz94cWk4vrYxr1
-  ## IJ09wBlnRlzqPmcFFEf1J5ePFrArCr4ulBaOmSz5v3Bb2v83l21RUBcbH2+KD46A
-  ## cLMPkI9UxJYEyLGQZk+idawiw0whjaGe9NpmWr2GhOw/TJL56yxHNaakeLs04R1R
-  ## TBiuTulWgmlWNlP7BHv+bWOqZAszfo+qp5QKtSi9TEPWDY39wnV16xkG7MLeK+Mc
-  ## VLn719aVWXDxITLl5y7xsUuMylMtAgMBAAGjIDAeMA8GA1UdEwEB/wQFMAMBAf8w
-  ## CwYDVR0PBAQDAgEGMA0GCSqGSIb3DQEBCwUAA4IBAQDCEIpzaou5j+eJofGShrUs
-  ## uTmSLTTdEClwm6oqO24hj3fWRYq+1fN7vdA9yztqnFUdGVHOwSj1p+rMPUePih8r
-  ## FnebjZoB07t8DWZ5v7urGAgNWwaTlk6fy1k2uGxw6+doumZFAxwkLthTYYeKr/Pt
-  ## VWhfb3InK8BXNuFsQsIyu5hafB5xU8ECk3mkMsta6lrPCBjKHlBKVsTFhb+IGdEc
-  ## LYAQxcBZyE0aAFoRtK4C5emwcOCEvzWXQ7SVqG9kgF5OZWrhOe4wveUSejDvG1Kq
-  ## lvoxl1HHu2oj8tSnrkgjYMeVcdo/1CAhD8+AE+XZDfpAD0sZE5wi4F7QBOKHQ4Cv
-  ## -----END CERTIFICATE-----"},
+  </tls-crypt>"},
   {"id":1,"file":"setenv FORWARD_COMPATIBLE 1
   client
   server-poll-timeout 4
